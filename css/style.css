@@ -2,14 +2,12 @@
     font-family: "Poppins";
     src: url("../css/font/Poppins-Bold.ttf");
     }
-
 * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 
 }
-
 body {
     height: 100vh;
     width: 100vw;
@@ -25,18 +23,15 @@ body {
     gap: 55px;
     border-bottom: 1px solid #12326D;
 }
-
 .image-header {
     width: auto;
     height: 90px;
 }
-
 .image-header.logo-paf {
     width: 138px;
 }
-
 .titre-header {
-    width: 32%;
+    width: 30%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -44,10 +39,9 @@ body {
     text-align: center;
     text-transform: uppercase;
 }
-
 /* End navigation*/
 
-/* Connextion */
+/* Connexion */
 .conteneur {
     width: 100%;
     height: calc(100% - 170px);
@@ -55,7 +49,6 @@ body {
     padding: 40px 120px 40px;
     display: flex;
 }
-
 .page-gauche {
     flex: 45%;
     height: 100%;
@@ -63,11 +56,9 @@ body {
     display: flex;
     flex-direction: column;
 }
-
 .page-gauche-haut {
     flex: 1;
 }
-
 .titre-formulaire {
     font-family: 'Poppins';
     font-style: normal;
@@ -76,11 +67,9 @@ body {
     line-height: 48px;
     color: #000000;
 }
-
 .input-formulaire {
     border-style: none;
 }
-
 .input-formulaire label {
     font-family: 'Poppins';
     font-style: normal;
@@ -100,11 +89,9 @@ body {
     color: #000000;
     padding: 5px;
 }
-
 .text-form {
     padding: 8px 0 8px 5px;
 }
-
 .input-formulaire input {
     background: #F4F8F7;
     border-radius: 12px;
@@ -112,7 +99,6 @@ body {
     height: 50px;
     border: none;
 }
-
 .bouton {
     width: 205px;
     height: 56px;
@@ -126,7 +112,6 @@ body {
     color: #ffff;
     margin-top: 22px;
 }
-
 .page-gauche-bas {
     flex: 1;
     display: flex;
@@ -142,12 +127,10 @@ body {
     align-items: center;
     padding: 10px 0 10px;
 }
-
 .danger-avertissement img {
     width: 18px;
     height: 18px;
 }
-
 .titre-avertissement {
     font-family: 'Poppins';
     font-style: normal;
@@ -156,7 +139,6 @@ body {
     line-height: 27px;
     color: #000000;
 }
-
 .texte-avertissement {
     width: 90%;
     font-family: 'Poppins';
@@ -166,7 +148,6 @@ body {
     line-height: 22px;
     color: #000000;
 }
-
 .page-droite {
     flex: 65%;
     padding: 0 50px 0 0;
@@ -174,11 +155,9 @@ body {
     flex-direction: column;
     align-items: flex-end;
 }
-
 .page-droite-haut {
     flex: 1;
 }
-
 .titre-annonces {
     font-family: 'Poppins';
     font-style: normal;
@@ -213,7 +192,6 @@ body {
     line-height: 27px;
     color: #000000;
 }
-
 .item-annonce .texte-annonce {
     font-family: 'Poppins';
     font-style: normal;
@@ -222,7 +200,6 @@ body {
     line-height: 24px;
     color: #A7ABAA;
 }
-
 .page-droite-bas {
     flex: 1;
     width: 100%;
@@ -235,6 +212,7 @@ body {
     height: 274px;
     border-radius: 20px;
 }
+/* End connexion*/
 
 /* Footer */
 .footer {
@@ -258,9 +236,7 @@ body {
 .footer .mention-legal {
     padding-left: 30px;
 }
-
 .footer .copy {
     padding-right: 30px;
 }
-
 /* End footer */
